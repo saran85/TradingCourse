@@ -2,9 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
-function Header() {
 
-  const handlePayment = () => {
+export const handlePayment = () => {
     const options = {
       key: "https://razorpay.me/@tradingstrategy", // Enter the Key ID generated from the Razorpay Dashboard
       amount: 19900, // Amount is in paisa, so ₹199 becomes 19900
@@ -28,6 +27,7 @@ function Header() {
     const rzp1 = new window.Razorpay(options);
     rzp1.open();
   };
+function Header() {
 
   return (
     <header>
@@ -38,11 +38,11 @@ function Header() {
         </div>
         <div className='left-align'>
           <div className="social-links">
-            <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-            <a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
+            <a href="##"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href="##"><FontAwesomeIcon icon={faFacebook} /></a>
+            <a href="##"><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href="##"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <a href="https://wa.me/919487932043?text=Hello.." target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faWhatsapp} /></a>
           </div>
           <div>
             <button className="Book-button" onClick={handlePayment}>Book Now</button>

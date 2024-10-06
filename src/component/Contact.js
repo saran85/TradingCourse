@@ -24,7 +24,6 @@ export default function ContactUs() {
         })
         .then(
           () => {
-            console.log('SUCCESS!');
             alert('Message sent successfully!');
             clearForm(); // Clear the form after success
           },

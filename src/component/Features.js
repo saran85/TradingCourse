@@ -1,11 +1,12 @@
 import React from "react";
+import { handlePayment } from "./Header";
 
 function Features() {
   return (
     <section className="features">
       <div className="feature">
         <img src="LiveTrading.png" alt="Live Trading Classes" />
-        
+
         <h2>Trading Strategies</h2>
         <p>
           Discover proven trading strategies that can help you make informed
@@ -14,10 +15,12 @@ function Features() {
           successful trading. Enhance your profitability and minimize risks
           through expert guidance.
         </p>
-        <a href="#">Get Started</a>
+        <button className="Book-button" onClick={handlePayment}>
+          Get Started
+        </button>
       </div>
       <div className="feature">
-      <h2>Live Trading Classes</h2>
+        <h2>Live Trading Classes</h2>
         <p>
           Join our live trading classes conducted by experienced professionals
           in the industry. Gain insights, strategies, and practical knowledge on
@@ -25,10 +28,10 @@ function Features() {
           instructors and fellow students in real-time sessions designed to
           enhance your trading skills.
         </p>
-        <a href="#">Explore Classes</a>
-
+        <button className="Book-button" onClick={handlePayment}>
+          Explore Classes
+        </button>
         <img src="MakeMoney.png" alt="Make Money" />
-        
       </div>
     </section>
   );
