@@ -33,7 +33,7 @@ function Header() {
     <header>
       <div className="header-container">
         <div className="logo">
-          <img src="chart.png" alt="Trading Strategy Logo" width="40" />
+          <img src="chart.png" alt="TradingLogo" width="40" />
           <span>Trading Strategy</span>
         </div>
         <div className='left-align'>

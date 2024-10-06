@@ -8,10 +8,10 @@ function Footer() {
       <p>&copy; 2024. All rights reserved.</p>
       <p>Powered by Trading Strategy <i className="fas fa-heart"></i></p>
       <div className="footer-social">
-        <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-        <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
-        <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
+        <a href="##"><FontAwesomeIcon icon={faFacebook} /></a>
+        <a href="##"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href="##"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href="##"><FontAwesomeIcon icon={faTwitter} /></a>
       </div>
       
     </footer>

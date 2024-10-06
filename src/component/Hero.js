@@ -13,7 +13,7 @@ function Hero() {
      
       </div>
       <div className="hero-image">
-        <img src="TradingApp.png" alt="TradingApp-Image" />
+      <img src="TradingApp.png" alt="TradingApp" />
       </div>
     </section>
   );

@@ -31,7 +31,7 @@ function Features() {
         <button className="Book-button" onClick={handlePayment}>
           Explore Classes
         </button>
-        <img src="MakeMoney.png" alt="Make Money" />
+        <img src="MakeMoney.png" alt="makeMoney" />
       </div>
     </section>
   );
