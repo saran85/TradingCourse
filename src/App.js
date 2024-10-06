@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './component/Header';
+import Hero from './component/Hero';
+import Features from './component/Features';
+import Testimonial from './component/Testimonial';
+import FAQ from './component/FAQ';
+import Map from './component/Map';
+import Footer from './component/Footer';
+import './App.css'; // Importing the CSS
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Hero />
+      <Features />
+      <Testimonial />
+      <FAQ />
+      <Map />
+      <Footer />
     </div>
   );
 }
