@@ -15,10 +15,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5em 5%;
+  padding: 10px 20px;
   background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.logo {
+  display: flex;
+  align-items: center;
 }
 
+.logo img {
+  border: 1px solid green;
+  border-radius: 5px;
+}
 .logo span {
   margin-left: 1em;
   font-size: 1.8em;
@@ -58,9 +67,17 @@ body {
 }
 
 .hero-content {
-  width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
+.hero-content-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .hero h1 {
   font-size: 2.5em;
   color: #333;
@@ -74,7 +91,7 @@ body {
 .hero-image img {
   max-width: 100%;
   height: auto;
-  margin-top: 2.6rem;
+  margin-top: 9em;
 }
 
 /* Features Section */
@@ -200,3 +217,144 @@ footer p{
 }
 
 
+/* Responsive styles */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    justify-content: flex-start;
+  }
+
+  .Book-button {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo span {
+    font-size: 0.9rem;
+  }
+
+  .social-links a {
+    font-size: 1rem;
+  }
+
+  .Book-button {
+    font-size: 0.9rem;
+  }
+}
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .hero-content-left {
+    width: 60%;
+  }
+
+  .hero h1 {
+    font-size: 2.2em;
+  }
+
+  .hero p {
+    font-size: 1.1em;
+  }
+
+  .hero-image img {
+    margin-top: 4em;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 5% 2%;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content-left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1.1em;
+  }
+
+  .hero-image {
+    margin-top: 2em;
+    width: 80%;
+  }
+
+  .hero-image img {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.8em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 2%;
+  }
+
+  .feature {
+    width: 90%;
+  }
+
+  .feature h2 {
+    font-size: 1.5em;
+  }
+
+  .feature p {
+    font-size: 1rem;
+  }
+
+  .feature img {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature h2 {
+    font-size: 1.4em;
+  }
+
+  .feature p {
+    font-size: 0.95rem;
+  }
+
+  .feature img {
+    margin-top: 0.5rem;
+  }
+
+  .Book-button {
+    font-size: 0.9rem;
+  }
+}
