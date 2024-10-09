@@ -139,6 +139,11 @@ body {
   text-align: center;
   padding: 4% 5%;
 }
+.our-services{
+  background-color: #d4d2d2;
+  text-align: center;
+  padding: 4% 5%;
+}
 
 blockquote {
   font-style: italic;
@@ -198,24 +203,40 @@ blockquote {
 
 /* Footer Section */
 footer {
-  text-align: center;
+  display:flex;
   padding: 5em 10%;
   background-color: #333;
   color: white;
+  justify-content: space-between;
 }
+
 footer p{
   padding: 1rem;
   color: rgb(222, 216, 216);
 }
-.footer-social a {
-  margin: 0 10px;
+.footer-social{
+  margin-top: 2rem;
+}
+
+footer .social-icons{
+  display: flex;
+  flex-direction: column;
+}
+.social-icons :hover{
+  color:aqua
+}
+footer a{
   color: white;
+  padding: 0.8rem;
 }
-
-.footer-social a:hover {
-  color: #007bff;
+.policy-detail :hover{
+  cursor: pointer;
+  color:aqua
 }
-
+.TermsConditions li{
+padding: 5px;
+margin-top: 1rem;
+}
 
 /* Responsive styles */
 @media (max-width: 768px) {

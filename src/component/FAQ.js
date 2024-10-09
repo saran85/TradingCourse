@@ -9,6 +9,7 @@ function FAQ() {
     setShowAnswer(index === showAnswer ? null : index);
   };
   return (
+    <>
     <section className="faq">
       <h2>Frequently Asked Questions</h2>
       <div className="faq-item" onClick={() => onclick(0)}>
@@ -102,6 +103,15 @@ function FAQ() {
         )}
       </div>
     </section>
+<section className="our-services">
+<blockquote>
+  <h2>Our Services</h2>
+<p>We offer one-time webinars on trading strategy based on personal analysis and experience. The price for each webinar is ₹199. Please note that we do not provide any investment advice or buy/sell tips, and the content is strictly for educational purposes.</p>
+
+</blockquote>
+</section>
+
+</>
   );
 }
 

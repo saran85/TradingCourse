@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-export default function ContactUs() {
+export default function ContactUs({placeholder}) {
   const form = useRef();
   const [formData, setFormData] = useState({
     from_name: '',
@@ -153,6 +153,7 @@ export default function ContactUs() {
       <div>
         <label style={labelStyles}>Message</label>
         <textarea
+        placeholder={placeholder}
           name="message"
           value={formData.message}
           onChange={handleChange}
