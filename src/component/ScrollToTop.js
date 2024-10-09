@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import {Icon} from '@ui5/webcomponents-react';
 
 const ScrollToTop = () => {
   const [showButton, setShowButton] = useState(false);
@@ -33,7 +32,7 @@ const ScrollToTop = () => {
     <>
       {showButton && (
         <button onClick={scrollToTop} style={styles.scrollButton}>
-         <Icon name="sap-icon://collapse-group" design="Contrast" />
+            <img src="up.png" alt="up" width="30px" height="30px"/>
         </button>
       )}
     </>
@@ -46,12 +45,12 @@ const styles = {
     position: "fixed",
     bottom: "50px",
     right: "50px",
-    padding: "10px 20px",   
-    borderRadius: "50%",
-    backgroundColor: "#66b39a",
+    padding: "10px 20px",
+    borderRadius: "60%",
+    backgroundColor: "#777a79",
     border: "none",
     cursor: "pointer",
-    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+    boxShadow: "2px 4px 8px rgba(0, 0, 0, 0.5)",
   },
 };
 
