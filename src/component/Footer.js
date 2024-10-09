@@ -14,6 +14,7 @@ import { createPortal } from "react-dom";
 
 function Footer() {
   const [dialogIsOpen, setDialogIsOpen] = useState(false);
+  const [contactDialogIsOpen, setContactDialogIsOpen] = useState(false);
   const [headerText, setheaderText] = useState("");
   const [isTermsCondition, setIsTermsCondition] = useState(false);
   const [isPrivacyPolicy, setIsPrivacyPolicy] = useState(false);
@@ -58,10 +59,11 @@ function Footer() {
 
   const contactClick=()=>{
     setheaderText("Contact Us");
-    setDialogIsOpen(true);
+    setContactDialogIsOpen(true);
   }
   const onClose = () => {
     setDialogIsOpen(false);
+    setContactDialogIsOpen(false)
   };
 
   return (
@@ -80,7 +82,7 @@ function Footer() {
       )},
       {createPortal(
         <ContactUsDialog  onClose={onClose} headerText={headerText}
-        dialogIsOpen={dialogIsOpen}/>,
+        dialogIsOpen={contactDialogIsOpen}/>,
         document.body
       )}
       ,

@@ -43,8 +43,7 @@ function PolicyDetail({
                 of ₹199. No refunds will be issued after payment.
               </li>
               <li>
-                Any disputes will be handled under the jurisdiction of [Your
-                City, State].
+                Any disputes will be handled under the jurisdiction of Chennai, Tamil-Nadu.
               </li>
             </ul>
           </>
@@ -119,8 +118,7 @@ function PolicyDetail({
         )}
         {isRefund && (
           <>
-           
-            <p>
+           <p>
             All purchases made for our webinar services are final. No refunds
             will be issued once payment is completed.
               As our service involves a one-time class with instant access to
