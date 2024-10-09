@@ -6,6 +6,7 @@ import Testimonial from './component/Testimonial';
 import FAQ from './component/FAQ';
 import Map from './component/Map';
 import Footer from './component/Footer';
+import ScrollToTop from './component/ScrollToTop';
 import './App.css'; // Importing the CSS
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <FAQ />
       <Map />
       <Footer />
+      <ScrollToTop/>
     </div>
   );
 }
