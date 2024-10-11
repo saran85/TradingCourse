@@ -10,7 +10,8 @@ import {
 
 export const handlePayment = () => {
   const options = {
-    key: "Key ID", // rzp_test_9XbJPu0vOzevBn Enter the Key ID generated from the Razorpay Dashboard
+    key: "rzp_live_t1d4vbX5rc4oOI",
+    key_secret: "wz9M0vBeK7cKUpj5YMEaxYCV", // rzp_test_9XbJPu0vOzevBn Enter the Key ID generated from the Razorpay Dashboard
     amount: 19900, // Amount is in paisa, so ₹199 becomes 19900
     currency: "INR",
     name: "Trading Strategy",
