@@ -42,7 +42,7 @@ function Header() {
     <header>
       <div className="header-container">
         <div className="logo">
-          <img src="chart.png" alt="TradingLogo" width="40" />
+          <img src="tradingLogo.jpg" alt="TradingLogo" width="40" />
           <span>Trading Strategy</span>
         </div>
         <div className="left-align">

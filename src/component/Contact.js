@@ -22,7 +22,7 @@ export default function ContactUs({ placeholder }) {
     if (validateForm()) {
       emailjs
         .sendForm("service_52ane6q", "template_86e1pzh", form.current, {
-          publicKey: "j5AijbRC7S-uHmC3T",
+          publicKey: "cR2Rx2SKbfmH7s-VJ",
         })
         .then(
           () => {
