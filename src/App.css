@@ -379,3 +379,15 @@ margin-top: 1rem;
     font-size: 0.9rem;
   }
 }
+.trading-ticker {
+  width: 100%;
+  max-width: 100%;
+  min-height: 50px;
+  overflow: hidden;
+  position: relative;
+  background-color: #333;
+}
+tv-ticker-tape {
+  display: block;
+  width: 100%;
+}

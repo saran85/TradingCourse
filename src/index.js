@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { setTheme } from '@ui5/webcomponents-base/dist/config/Theme.js';
+
+setTheme('sap_horizon_dark');
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

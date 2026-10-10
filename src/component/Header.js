@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import TradingViewTicker from "./TradingViewTicker";
 import {
   faFacebook,
   faInstagram,
@@ -39,7 +40,7 @@ export const handlePayment = () => {
 };
 function Header() {
   return (
-    <header>
+    <><header>
       <div className="header-container">
         <div className="logo">
           <img src="tradingLogo.jpg" alt="TradingLogo" width="40" />
@@ -75,6 +76,7 @@ function Header() {
         </div>
       </div>
     </header>
+    <TradingViewTicker /></>
   );
 }
 

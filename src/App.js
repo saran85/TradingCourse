@@ -8,9 +8,10 @@ import Map from './component/Map';
 import Footer from './component/Footer';
 import ScrollToTop from './component/ScrollToTop';
 import './App.css'; // Importing the CSS
-
+import { ThemeProvider } from '@ui5/webcomponents-react';
 function App() {
   return (
+    <ThemeProvider data="sap_fiori_3_dark">
     <div className="App">
       <Header />
       <Hero />
@@ -21,6 +22,7 @@ function App() {
       <Footer />
       <ScrollToTop/>
     </div>
+    </ThemeProvider>
   );
 }
 
