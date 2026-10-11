@@ -9,7 +9,7 @@ function Map() {
           src="https://maps.google.com/maps?q=Chennai,India&t=&z=13&ie=UTF8&iwloc=&output=embed"
           width="100%"
           height="300"
-          frameBorder="0"
+          // frameBorder="0"
           allowFullScreen
           title="Google Maps"
         ></iframe>

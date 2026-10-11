@@ -48,7 +48,8 @@ function Header() {
         </div>
         <div className="left-align">
           <div className="social-links">
-            <a href="##">
+            <a href="https://www.instagram.com/trading_strategy/" 
+            target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a href="##">

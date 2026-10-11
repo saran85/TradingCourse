@@ -47,7 +47,7 @@ const styles = {
     right: "50px",
     padding: "10px 20px",
     borderRadius: "60%",
-    backgroundColor: "#777a79",
+    backgroundColor: "#182b36",
     border: "none",
     cursor: "pointer",
     boxShadow: "2px 4px 8px rgba(0, 0, 0, 0.5)",

@@ -114,19 +114,20 @@ export default function ContactUs({ placeholder }) {
   };
 
   const buttonStyles = {
-    backgroundColor: "#4CAF50",
-    color: "white",
+    backgroundColor: " #00d6a31a",
     padding: "12px 20px",
-    border: "none",
-    borderRadius: "5px",
+    border: "1px solid #00d6a3",
+    borderRadius: "9px",
+    background: "transparent",
+    color:" #50d4b5",
     cursor: "pointer",
     fontSize: "16px",
     transition: "background-color 0.3s ease",
-    alignSelf: "flex-start",
+    alignSelf: "flex-end",
   };
 
   const buttonHoverStyles = {
-    backgroundColor: "#45a049",
+    backgroundColor: "#152e31",
   };
 
   return (
@@ -170,8 +171,9 @@ export default function ContactUs({ placeholder }) {
 
         <input
           type="submit"
-          value="Send"
+          value="Send ▶"
           style={buttonStyles}
+          
           onMouseOver={(e) =>
             (e.target.style.backgroundColor = buttonHoverStyles.backgroundColor)
           }
@@ -179,7 +181,8 @@ export default function ContactUs({ placeholder }) {
             (e.target.style.backgroundColor = buttonStyles.backgroundColor)
           }
         />
-      </form>
+       
+             </form>
       <Toast
       style={{width:"50em", padding:"2em", color:"white", backgroundColor:"green"}}
         duration="3000"
