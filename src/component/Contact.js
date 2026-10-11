@@ -74,10 +74,10 @@ export default function ContactUs({ placeholder }) {
     maxWidth: "600px",
     margin: "50px auto",
     padding: "20px",
-    border: "1px solid #ccc",
+    border: "1px solid #3f4072",
     borderRadius: "10px",
-    boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
-    backgroundColor: "#f9f9f9",
+    boxShadow: "0px 4px 8px rgba(155, 122, 243, 0.44)",
+    backgroundColor: "#2e1c3f",
     display: "flex",
     flexDirection: "column",
     gap: "15px",
@@ -86,14 +86,14 @@ export default function ContactUs({ placeholder }) {
   const labelStyles = {
     fontSize: "16px",
     fontWeight: "bold",
-    color: "#333",
+    color: "#9232e0",
     marginBottom: "5px",
   };
 
   const inputStyles = {
     width: "100%",
     padding: "10px",
-    border: "1px solid #ddd",
+    border: "1px solid #320441",
     borderRadius: "5px",
     boxSizing: "border-box",
     fontSize: "14px",

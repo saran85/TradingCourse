@@ -148,20 +148,34 @@ body {
 /* LEFT CONTENT */
 
 .hero-content-left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   gap: 24px;
+   background:
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(168, 85, 247, 0.14),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 10% 80%,
+      rgba(0, 229, 255, 0.10),
+      transparent 35%
+    ),
+    #080d1a;
+  color: #f1f5f9;
+  box-sizing: border-box;
+  overflow: hidden;
+
 }
 
 .hero-content-left h1 {
-  margin: 0;
+  margin: auto;
   max-width: 650px;
   color: #f8fafc;
   font-size: clamp(2.5rem, 4.5vw, 4.5rem);
   font-weight: 800;
   line-height: 1.12;
   letter-spacing: -1.8px;
+   text-align: center;
 }
 
 .hero-content-left h1::first-line {
@@ -170,10 +184,11 @@ body {
 
 .hero-content-left p {
   max-width: 540px;
-  margin: 0;
+  margin: auto;
   color: #a7b5cc;
   font-size: 1.15rem;
   line-height: 1.8;
+   text-align: center;
 }
 
 /* CYAN AND PURPLE ACCENT */

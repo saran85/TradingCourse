@@ -1,0 +1,76 @@
+
+    .animated-chart-card {
+    width: 100%;
+    padding: 24px;
+    border: 1px solid #202b40;
+    border-radius: 20px;
+    background: #080d18;
+    color: #f1f5f9;
+    box-sizing: border-box;
+    overflow: hidden;
+    }
+
+    .animated-chart-header,
+    .animated-chart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    }
+
+    .chart-eyebrow {
+    color: #00d6a3;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    }
+
+    .animated-chart-header h2 {
+    font-size: clamp(22px, 3vw, 32px);
+    margin: 10px 0;
+    }
+
+    .animated-chart-header p {
+    color: #94a3b8;
+    margin-bottom: 18px;
+    }
+
+    .chart-live-label {
+    color: #00d6a3;
+    font-size: 11px;
+    white-space: nowrap;
+    }
+
+    .animated-chart-canvas {
+    height: 360px;
+    width: 100%;
+    min-width: 0;
+    }
+
+    .animated-chart-footer {
+    padding-top: 18px;
+    color: #94a3b8;
+    font-size: 12px;
+    flex-wrap: wrap;
+    }
+
+    .animated-chart-footer button {
+    padding: 10px 15px;
+    border: 1px solid #00d6a3;
+    border-radius: 9px;
+    background: transparent;
+    color: #00d6a3;
+    cursor: pointer;
+    }
+
+    .animated-chart-footer button:hover {
+    background: #00d6a31a;
+    }
+
+    @media (max-width: 600px) {
+    .animated-chart-card {
+        padding: 14px;
+        
+    }
+
+    }
